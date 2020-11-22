@@ -7,3 +7,24 @@
         column-count: 5;
     }
 } */
+.imagen-carrusel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 15vw;
+    z-index: 2;
+}
+.boton-actions{
+    font-family: sans-serif;
+    color: white;
+    background-color: #025157;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 12px 20px;
+    border: none;
+}
+.boton-actions:hover{
+    background-color: #6abf4b;
+}
