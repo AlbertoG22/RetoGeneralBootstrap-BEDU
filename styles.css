@@ -1,3 +1,27 @@
+.header{
+    margin-top: 40px;
+}
+.features-section{
+    margin-top: 300px;
+}
+.cards-section{
+    margin-top: 250px;
+}
+.tabla-section{
+    margin-top: 200px;
+}
+.carousel-section{
+    margin-top: 200px;
+}
+.circulo-section{
+    margin-top: 200px;
+}
+.grid-cards-section{
+    margin-top: 250px;
+}
+.verde-section{
+    margin-top: 200px;
+}
 .imagen-carrusel {
     background-size: cover;
     background-position: center;
@@ -25,8 +49,8 @@
 .titlo-sitio{
     font-family: vesterbroextrabold;
     color: #025157;
-    font-weight: bold;
-    font-size: 60px;
+    font-weight: 800;
+    font-size: 70px;
     line-height: 63px;
 }
 .titulo-secundario{
@@ -97,13 +121,13 @@
         font-size: 25px;
     }
 }
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
     .titulos-tabla{
         font-size: 22px;
         text-align: center;
     }
     .titulo-secundario{
-        font-size: 35px;
+        
     }
     .titulo-terciario{
         font-size: 30px;
